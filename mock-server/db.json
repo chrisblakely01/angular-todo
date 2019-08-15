@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Todo1 - from mock server",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Todo2",
+      "completed": true
+    },
+    {
+      "title": "New todo",
+      "completed": false,
+      "id": 3
+    }
+  ]
+}

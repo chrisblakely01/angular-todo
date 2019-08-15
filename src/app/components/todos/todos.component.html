@@ -1,0 +1,8 @@
+<!-- circle brackets are used to "catch events" e.g clicks, submit, and custom events  -->
+<app-todo-input (addTodo)="createTodo($event)"></app-todo-input>
+<app-todo-item 
+	*ngFor="let todo of todos"
+	[todo]="todo"
+	(deleteTodo)="deleteTodo($event)"
+	>
+</app-todo-item>
